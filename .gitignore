@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+.env/
+.env*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temp data
+*.log
+*.tmp
+
+# Data
+data/raw_alerts/
+data/processed/
+
+# VSCode settings
+.vscode/
+
+# Config (berisikan data sensitif)
+config/config.ini
+
+# Log Simulasi
+simulasi_serangan.json
+
+# sample
+samples/

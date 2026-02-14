@@ -1,0 +1,42 @@
+=== LAPORAN EVALUASI MODEL WAZUH AI ===
+Tanggal   : 2025-12-04 08:59:58
+Model     : Random Forest (Balanced)
+--------------------------------------------------
+
+1. PERFORMA KRITIS (LEVEL 2)
+   Target Deteksi : Menemukan serangan berbahaya (Taktik MITRE/Level 12+)
+   Recall Score   : 100.00% ✅ BAGUS
+   F1-Score       : 100.00%
+
+2. ANALISIS KESALAHAN (CONFUSION MATRIX)
+   [LEVEL 2 - KRITIS]
+   - Total Serangan Nyata : 378911
+   - Berhasil Dicegat     : 378905 (Sistem mengirim alert 'Kritis')
+   - Lolos/Missed         : 6 ❌ (Sistem mengira ini aman/biasa)
+
+   [LEVEL 1 - INVESTIGASI]
+   - Total Event          : 97529
+   - Terdeteksi Benar     : 97528
+
+3. APA YANG DIPELAJARI AI? (TOP 5 FEATURES)
+   1. rule_id_freq         : 0.4697 (Pola frekuensi kejadian)
+   2. rule_level           : 0.4037 (Tingkat keparahan bawaan)
+   3. srcip_freq           : 0.0766 (Pola frekuensi kejadian)
+   4. agent_freq           : 0.0412 (Pola frekuensi kejadian)
+   5. hour_of_day          : 0.0076 (Waktu serangan)
+
+4. DETAIL TEKNIS
+                precision    recall  f1-score   support
+
+      Noise(0)       1.00      1.00      1.00   1280351
+Investigasi(1)       1.00      1.00      1.00     97529
+     Kritis(2)       1.00      1.00      1.00    378911
+
+      accuracy                           1.00   1756791
+     macro avg       1.00      1.00      1.00   1756791
+  weighted avg       1.00      1.00      1.00   1756791
+
+
+=== KEPUTUSAN DEPLOYMENT ===
+STATUS: ✅ LULUS (PASS)
+Model ini aman untuk digunakan di production.

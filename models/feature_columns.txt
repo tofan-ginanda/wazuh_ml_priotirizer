@@ -1,0 +1,6 @@
+rule_level
+hour_of_day
+is_weekend
+rule_id_freq
+agent_freq
+srcip_freq
