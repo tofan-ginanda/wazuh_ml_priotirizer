@@ -51,8 +51,8 @@ Sistem ini terdiri dari modul terpisah antara fase *Development* (Laptop) dan *O
 ### 1. Setup Environment
 Clone repository ini ke server Wazuh Anda:
 ```bash
-git clone [https://github.com/username-anda/wazuh-ai-prioritizer.git](https://github.com/username-anda/wazuh-ai-prioritizer.git)
-cd wazuh-ai-prioritizer
+git clone https://github.com/username-anda/wazuh_ml_prioritizer.git
+cd wazuh_ml_prioritizer
 
 # Setup Python Venv
 python3 -m venv venv
@@ -175,4 +175,5 @@ Tambahkan jadwal berikut ke crontab (`crontab -e`) agar laporan Class 1 terkirim
 * Mahasiswa Universitas Siber Asia
 * Fokus: Cybersecurity & Data Science
 * LinkedIn: https://www.linkedin.com/in/tofan-ginanda-a9241a292
+
 
