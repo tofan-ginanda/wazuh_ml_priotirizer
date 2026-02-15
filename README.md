@@ -171,9 +171,11 @@ Tambahkan jadwal berikut ke crontab (`crontab -e`) agar laporan Class 1 terkirim
 ## 👤 Author
 
 **Tofan Giri Ginanda**
+**Bakhrul Ullum**
 
 * Mahasiswa Universitas Siber Asia
 * Fokus: Cybersecurity & Data Science
 * LinkedIn: https://www.linkedin.com/in/tofan-ginanda-a9241a292
+
 
 
