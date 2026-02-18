@@ -158,22 +158,7 @@ Tambahkan jadwal berikut ke crontab (`crontab -e`) agar laporan Class 1 terkirim
 0 * * * * /opt/wazuh_ml_prioritizer/venv/bin/python3 /opt/wazuh_ml_prioritizer/scripts/06_hourly_reporter.py
 
 ```
-
-## 📊 Hasil Performa
-
-* **Akurasi Model:** 99.1% (Data Testing).
-* **Recall (Serangan Kritis):** 99.9%.
-* **Latensi Deteksi:** Rata-rata 35ms per log.
-* **Efisiensi Resource:** Penggunaan CPU < 2% berkat fitur *Early Discard*.
-
----
-
-## 👤 Author
-
-**Tofan Giri Ginanda**
-
-* Mahasiswa Universitas Siber Asia
-* Fokus: Cybersecurity & Data Science
 * LinkedIn: https://www.linkedin.com/in/tofan-ginanda-a9241a292
+
 
 
