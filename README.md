@@ -158,7 +158,8 @@ Tambahkan jadwal berikut ke crontab (`crontab -e`) agar laporan Class 1 terkirim
 0 * * * * /opt/wazuh_ml_prioritizer/venv/bin/python3 /opt/wazuh_ml_prioritizer/scripts/06_hourly_reporter.py
 
 ```
-* LinkedIn: https://www.linkedin.com/in/tofan-ginanda-a9241a292
+
+
 
 
 
